@@ -1,0 +1,15 @@
+main {
+  margin: 20px 0;
+}
+
+.carusel-wrapper {
+  outline: 1px dashed red;
+  display: flex;
+  overflow: hidden;
+}
+
+.carusel-wrapper > .card {
+  min-width: 400px;
+  width: 80vw;
+  margin: 0 20px;
+}
