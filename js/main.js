@@ -33,16 +33,16 @@ movies.sort((a, b) => new Date(a.startTime) - new Date(b.startTime));
 
 
 const generateCard = () => {
-          const card = `<div class="card" style="width: 18rem;">
-          <img src="http://placeimg.com/640/480/transport" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>`;
+        //   const card = `<div class="card" style="width: 18rem;">
+        //   <img src="http://placeimg.com/640/480/transport" class="card-img-top" alt="...">
+        //   <div class="card-body">
+        //     <h5 class="card-title">Card title</h5>
+        //     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        //     <a href="#" class="btn btn-primary">Go somewhere</a>
+        //   </div>
+        // </div>`;
 
         movies.forEach(el => {
-          
+
         })
 }
